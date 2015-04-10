@@ -23,3 +23,6 @@
 
 - HTML+CSS+XPATH
     - [基础知识](html-css-xpath-notes.md)
+
+- HTTP相关
+    - [session和cookie简单认识](session-cookie-notes.md)
