@@ -19,7 +19,8 @@
     - [scrapy小技巧](scrapy-tips.md)
 
 - Laravel框架
-    - [laravel基础](laravel-notes.md)
+    - [laravel基础](laravel/laravel-notes.md)
+    - [laravel-resources](laravel/laravel-resources.md)
 
 - HTML+CSS+XPATH
     - [基础知识](html-css-xpath-notes.md)
