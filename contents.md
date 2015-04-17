@@ -11,3 +11,6 @@
 - 代码管理
     - [git 基本使用](git-notes.md)
     - [git-flow 笔记](git-flow-notes.md)
+
+- Laravel
+    - [laravel-resources](laravel/laravel-resources.md)
