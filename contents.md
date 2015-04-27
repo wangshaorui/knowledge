@@ -17,13 +17,18 @@
 - Scrapy相关
     - [scrapy基础](scrapy-notes.md)
     - [scrapy小技巧](scrapy-tips.md)
-
+    - [爬虫qingclound服务器部署](estate-crawler-server-notes.md)
+    
 - Laravel框架
     - [laravel基础](laravel/laravel-notes.md)
     - [laravel-resources](laravel/laravel-resources.md)
+    - [laravel4\5 会话共享](laravel/lv4-lv5-session-share.md)
 
 - HTML+CSS+XPATH
     - [基础知识](html-css-xpath-notes.md)
 
 - HTTP相关
     - [session和cookie简单认识](session-cookie-notes.md)
+
+- Celery相关
+    - [Celery基础教程](celery.md)
