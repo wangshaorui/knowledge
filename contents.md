@@ -23,6 +23,7 @@
     - [laravel基础](laravel/laravel-notes.md)
     - [laravel-resources](laravel/laravel-resources.md)
     - [laravel4\5 会话共享](laravel/lv4-lv5-session-share.md)
+    - [laravel4 自定义命令](laravel/laravel-command.md)
 
 - HTML+CSS+XPATH
     - [基础知识](html-css-xpath-notes.md)
