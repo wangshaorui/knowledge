@@ -32,3 +32,6 @@
 
 - Celery相关
     - [Celery基础教程](celery.md)
+
+- Elasticsearch相关
+    - [Elasticsearch基础教程](elasticsearch的安装和一个小实验.md)
