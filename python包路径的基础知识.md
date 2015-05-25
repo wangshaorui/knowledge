@@ -1,4 +1,4 @@
-# python包的基础知识
+# python包路径的基础知识
 
 标签（空格分隔）： python
 
@@ -51,3 +51,44 @@ def func1():
 ```
  
  不同的机器上显示的路径信息可能不一样，但至少都包含上面提到的3点。我们可以通过`sys.path.append()`方法，将模块添加到当前的包搜索路径中去。
+
+##包的导入
+通常模块为一个文件，直接用import来导入就好了。可以作为module的文件类型有：".py"、".pyo"、".pyc"、".pyd"、".so"、".dll"。
+系统在导入模块时，要做以下三件事：
+
+ 1. 为源代码文件中定义的对象创建一个命名空间，通过这个命名空间可以访问到模块中定义的函数及变量。
+ 2. 为新创建的命名空间里面执行源代码文件。
+ 3. 创建一个名为源代码文件的对象，该对象引用模块的命名空间，这样就可以通过这个对象访问模块中的函数及变量，如：
+ 
+```python        
+import spam      #导入并运行模块spam
+print spam.a     #访问模块spam的属性
+spam.foo()
+c = spam.bar()
+...
+```
+
+用逗号分割模块名称就可以同时导入多个模块：
+```python
+import socket, os, regex
+```
+模块导入时可以使用as关键字来改变模块的引用对象名字：
+```python
+import os as system
+import socket as net, thread as threads
+system.chdir("..")
+net.getthostname()
+```
+
+使用from语句可以将模块中的对象直接导入到当前的命名空间，from语句不创建一个到模块命名空间的引用对象，而是把被导入模块的一个或多个对象直接放入当前的命名空间：
+```python
+from socket import gethostname  #将gethostname放入当前命名空间
+print gethostname()             #直接调用
+socket.gethostname()            #引发异常NameError:socket
+```
+
+import语句可以在程序的任何位置使用，你可以在程序中多次导入同一个模块，但模块中的代码仅仅在该模块被首次导入时执行，后面的import语句只是简单的创建一个模块命名空间的引用而已。sys.modules字典中保存着所有被导入模块名到模块对象的映射，这个字典用来决定是否需要使用import语句来导入一个模块的最新拷贝。
+
+from module import * 语句只能用于一个模块的最顶层。
+**特别注意**，由于存在作用域冲突，不允许在函数中使用from语句。
+每个模块都拥有`__name__`属性，它是一个内容为模块名字的字符串。最顶层的模块名称是`__main__`，命令行或者是交互模式下程序都运行在`__main__`模块内部。

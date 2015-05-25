@@ -10,7 +10,7 @@
     - [Python 多版本管理工具 pyenv](pyenv-notes.md)
     - [虚拟环境 virtualenv](virtualenv-notes.md)
     - [Python ORM之Pony](pony-notes.md)
-    - [Python 包的基础知识](python包的基础知识.md)
+    - [Python 包路径的基础知识](python包路径的基础知识.md)
     
 - 开发环境
     - [Laravel Homestead 相关](homestead.md)
