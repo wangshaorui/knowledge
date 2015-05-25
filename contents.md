@@ -36,3 +36,6 @@
 
 - Elasticsearch相关
     - [Elasticsearch基础教程](elasticsearch的安装和一个小实验.md)
+    
+- MathJax相关
+    - [MathJax安装和常用配置](mathjax安装和常用配置.md)
