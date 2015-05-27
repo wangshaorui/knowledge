@@ -10,6 +10,7 @@
     - [Python 多版本管理工具 pyenv](pyenv-notes.md)
     - [虚拟环境 virtualenv](virtualenv-notes.md)
     - [Python ORM之Pony](pony-notes.md)
+    - [Python 包路径的基础知识](python包路径的基础知识.md)
     
 - 开发环境
     - [Laravel Homestead 相关](homestead.md)
@@ -35,3 +36,6 @@
 
 - Elasticsearch相关
     - [Elasticsearch基础教程](elasticsearch的安装和一个小实验.md)
+    
+- MathJax相关
+    - [MathJax安装和常用配置](mathjax安装和常用配置.md)
