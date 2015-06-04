@@ -55,6 +55,7 @@ es.indices.create(index='test-index', ignore=400)
 es.indices.delete(index='test-index', ignore=[400, 404])
 ```
 
+
 **Timeout**
 全局变量timeout可以在构建客户端的时候设定，或者在每个请求时用`request_timeout`作为API调用的一部分，这个值将会被传递到connection这个类中的`perform_request`方法中：
 ```python
@@ -107,10 +108,7 @@ es = Elasticsearch([
 **Parameters**:
 
  - hosts - 我们要连的一个结点列表。结点应该是字典类型的({“host”: “localhost”, “port”: 9200})，这整个字典都会被当成一个参数传到Connection类中，或者像这样形式的字符串`host[:port]`，不过它也会被自动得转化成字典。
- - transport_class - Transport的字类。
+ - transport_class - Transport的子类。
  - kwargs - 所有附加的参数都会被传递到`Transport`类中和`Connection`实例中。
 
-```python
-bulk(*args, **kwargs)
-```
 
