@@ -13,7 +13,7 @@
     - 开发环境
         - [Laravel Homestead 相关](homestead.md)
     - 开发规范
-        - [PHP代码规范](PHP代码规范.md)
+        - [PHP代码规范](php-standard-recommendation.md)
 
 - 技术相关知识
     - HTTP相关
@@ -22,7 +22,7 @@
         - [Python 多版本管理工具 pyenv](pyenv-notes.md)
         - [虚拟环境 virtualenv](virtualenv-notes.md)
         - [Python ORM之Pony](pony-notes.md)
-        - [Python 包路径的基础知识](python包路径的基础知识.md)
+        - [Python 包路径的基础知识](php-standard-recommendation.md)
     - Scrapy
         - [scrapy基础](scrapy-notes.md)
         - [scrapy小技巧](scrapy-tips.md)
@@ -37,7 +37,7 @@
     - Celery相关
         - [Celery基础教程](celery.md)
     - Elasticsearch相关
-        - [Elasticsearch基础教程](elasticsearch的安装和一个小实验.md)
-        - [Elasticsearch-py简单使用](elasticsearch-py简单使用.md)
+        - [Elasticsearch基础教程](elasticsearch-install-notes.md)
+        - [Elasticsearch-py简单使用](elasticsearch-py-notes.md)
     - MathJax相关
-        - [MathJax安装和常用配置](mathjax安装和常用配置.md)
+        - [MathJax安装和常用配置](mathjax-configuration-notes.md)
