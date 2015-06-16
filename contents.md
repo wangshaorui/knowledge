@@ -11,6 +11,7 @@
         - [git 基本使用](git-notes.md)
         - [git-flow 笔记](git-flow-notes.md)
     - 开发环境
+        - [Windows 中开发环境配置](dev/developing-with-windows.md)
         - [Laravel Homestead 相关](homestead.md)
     - 开发规范
         - [PHP代码规范](php-standard-recommendation.md)
