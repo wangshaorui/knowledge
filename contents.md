@@ -4,12 +4,16 @@
 
 - [知识库的编辑与维护](knowledge-base.md)
 
+- [员工手册](company-handbook.md)
+
 - 分析业务相关知识
+    - [如何成为数据科学家](how-to-be-a-data-scientist.md)
 
 - 开发相关知识
     - 代码管理
         - [git 基本使用](git-notes.md)
         - [git-flow 笔记](git-flow-notes.md)
+        - [Sourcetree 使用指南](sourcetree.md)
     - 开发环境
         - [Windows 中开发环境配置](dev/developing-with-windows.md)
         - [Laravel Homestead 相关](homestead.md)
