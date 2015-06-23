@@ -21,8 +21,10 @@
         - [PHP代码规范](php-standard-recommendation.md)
 
 - 技术相关知识
-    - HTTP相关
+    - HTTP 相关
         - [session和cookie简单认识](session-cookie-notes.md)
+    - PHP 相关
+        - [Composer Tips](php/composer-tips.md)
     - Python
         - [Python 多版本管理工具 pyenv](pyenv-notes.md)
         - [虚拟环境 virtualenv](virtualenv-notes.md)
