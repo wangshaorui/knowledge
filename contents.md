@@ -15,6 +15,7 @@
         - [git-flow 笔记](git-flow-notes.md)
         - [Sourcetree 使用指南](sourcetree.md)
     - 开发环境
+        - [OS X 中开发环境相关配置](dev/developing-with-osx.md)
         - [Windows 中开发环境配置](dev/developing-with-windows.md)
         - [Laravel Homestead 相关](homestead.md)
     - 开发规范
