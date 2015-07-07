@@ -34,13 +34,11 @@ JRE是Java Runtime Enviroment是指Java的运行环境，是面向Java程序的�
 
     sudo apt-get update && sudo apt-get install elasticsearch
 
-###运行Elasticsearch：
+### 启动 Elasticsearch
 
-执行以下命令可以在前台启动：
+执行以下命令可以启动 Elasticsearch （在 ubuntu-server 中）
 
-    ./bin/elasticsearch
-
-如果想在后台以守护进程模式运行，添加-d参数。
+     service elasticsearch start
 
 打开另外一个终端进行测试：
 
@@ -63,15 +61,20 @@ JRE是Java Runtime Enviroment是指Java的运行环境，是面向Java程序的�
 }
 ```
 安装成功！
-##Elasticsearch基础概念
-###Near Realtime(NRT)
+
+## Elasticsearch基础概念
+
+### Near Realtime(NRT)
+
 ES是一个近乎实时搜索平台，意思就是从你开始索引一个文件到它变成可以搜索的时间，它的延迟很低（正常情况下一秒）。
 
-###Cluster
+### Cluster
+
 一个集群(cluster)，即将一个或者多个节点（服务）集合起来，上面有你的所有数据，并且从所有的节点上都可以进行索引(feddrated indexing)和搜索。一个集群默认情况下是以"elasticsearch"命名(它必须是唯一的)。这个名字非常重要，因为一个节点只有通过一个集群的名字才可以加入这个集群。在生产环境中修改集群的名字是一个很好的practice，但是在测试或者开发中，使用默认的就好了。
 可以通过修改config/目录下的elasticsearch.yml文件中cluster.name的名字，然后重启elasticsearch。直接使用ctrl-c快捷键即可终止。
 
-###Node
+### Node
+
 一个节点(Node)是一个独立的服务，它是你集群中的一部分，存储你的数据，也参与集群的索引和搜索服务。它是一个运行着Elasticsearch的实例。
 
 ##开始第一步——magacorp公司需要建立一个员工目录
