@@ -14,18 +14,25 @@ Elasticsearch不仅仅是Lucene和全文搜索，还可以这样说：
 而且，所有的这些功能都被集成到一个服务里，你的应用可以通过简单的RESTful API、各种语言的客户端甚至命令行与之交互。
 
 ###Java环境的安装（这是运行Elasticsearch前提）
-首先，JRE和JDK的区别：
+首先，要知道JRE和JDK的区别：
 JDK就是Java Development Kit，这是面向开发者使用的SDK，它提供了Java的开发环境和运行环境。SDK是Software Development Kit 一般指软件开发包，可以包括函数库、编译程序等。
 JRE是Java Runtime Enviroment是指Java的运行环境，是面向Java程序的使用者，而不是开发者。
-所以，这里我们安装一个JRE即可，在Ubuntu下：
+所以，这里我们安装一个JRE即可，在UBUNTU下：
 
     sudo apt-get install default-jre
 
-###安装Elasticsearch：
+###安装Elasticsearch（通过APT的方式安装）：
+下载安装公匙：
 
-    curl -L -O https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.2.zip
-    unzip elasticsearch-1.5.2.zip
-    cd elasticsearch-1.5.2
+    wget -qO - https://packages.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+
+将源添加入`/etc/apt/sources.list.d/elasticsearch-{branch}.list`:
+
+    echo "deb http://packages.elastic.co/elasticsearch/1.6/debian stable main" | sudo tee -a /etc/apt/sources.list.d/elasticsearch-1.6.list
+    
+执行apt-get update然后新添加的源就可以用了，接着进行安装：
+
+    sudo apt-get update && sudo apt-get install elasticsearch
 
 ###运行Elasticsearch：
 
@@ -83,7 +90,7 @@ ES是一个近乎实时搜索平台，意思就是从你开始索引一个文件
 在Elasticsearch中，文档归属一种类型，而这些类型存在于索引中，我们可以这样类比传统关系型数据库：
 
     Relational DB -> Databases -> Tables -> Rows -> Columes
-    ElasticSearch -> Indexes   -> Types  -> Cocuments -> Fields
+    ElasticSearch -> Indexes   -> Types  -> Documents -> Fields
     
 即，Elasticsearch集群可以包含多个索引(indices)(数据库)，每一个索引可以包含多个类型(types)(表)，每一个类型包含多个文档(documents)(行)，然后每个文档包含多个字段(fields)(列)。
 
