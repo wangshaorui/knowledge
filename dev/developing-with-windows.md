@@ -26,16 +26,6 @@ IDE 推荐：
   sourcetree 免费，但是需要注册获取 license 
   *使用工作邮箱（即 @datartisan.com 结尾的邮箱）注册*
 
-## Vagrant 
-
-Vagrant 是虚拟机管理命令行管理工具，非常方便好用
-
-- 首先安装 virtualbox 
-  https://www.virtualbox.org/wiki/Downloads
-
-- 再安装 vagrant 
-  https://www.vagrantup.com/downloads.html
-
 ## PHP 开发相关
 
 - wamp 集成环境
@@ -50,3 +40,13 @@ Vagrant 是虚拟机管理命令行管理工具，非常方便好用
 
 - Anaconda
   http://continuum.io/downloads
+
+## Vagrant (非必须，希望在 windows 中使用 homestead 时安装)
+
+Vagrant 是虚拟机管理命令行管理工具，非常方便好用
+
+- 首先安装 virtualbox 
+  https://www.virtualbox.org/wiki/Downloads
+
+- 再安装 vagrant 
+  https://www.vagrantup.com/downloads.html
