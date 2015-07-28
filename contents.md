@@ -33,6 +33,11 @@
         - [Python 包路径的基础知识](php-standard-recommendation.md)
     - 数据库
         - [PostgreSQL 相关](database/postgres.md)
+        - [MySQL 相关](database/mysql.md)
+    - Spark
+        - [Spark 基础知识](spark/spark.md)
+    - Hadoop
+        - TODO
     - Scrapy
         - [scrapy基础](scrapy-notes.md)
         - [scrapy小技巧](scrapy-tips.md)
@@ -40,14 +45,14 @@
     - HTML+CSS+XPATH
         - [HTML+CSS+XPATH](html-css-xpath-notes.md)
     - Laravel框架
-        - [laravel基础](laravel/laravel-notes.md)
-        - [laravel-resources](laravel/laravel-resources.md)
+        - [laravel 基础](laravel/laravel-notes.md)
         - [laravel4\5 会话共享](laravel/lv4-lv5-session-share.md)
         - [laravel4 自定义命令](laravel/laravel-command.md)
+        - [laravel 相关资源](laravel/laravel-resources.md)
     - Celery相关
-        - [Celery基础教程](celery.md)
+        - [Celery 基础教程](celery.md)
     - Elasticsearch相关
-        - [Elasticsearch基础教程](elasticsearch-install-notes.md)
-        - [Elasticsearch-py简单使用](elasticsearch-py-notes.md)
+        - [Elasticsearch 基础教程](elasticsearch-install-notes.md)
+        - [Elasticsearch-py 简单使用](elasticsearch-py-notes.md)
     - MathJax相关
-        - [MathJax安装和常用配置](mathjax-configuration-notes.md)
+        - [MathJax 安装和常用配置](mathjax-configuration-notes.md)
