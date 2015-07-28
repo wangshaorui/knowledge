@@ -1,3 +1,7 @@
+---
+test: abc
+---
+
 标签（空格分隔）： git-notes
 #git基础
 1. 创建版本库learngit  
