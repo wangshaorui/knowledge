@@ -1,13 +1,20 @@
 ＃ Homestead 学习笔记
 ----
+
 ##Homebrew
+
 Homebrew是一个包管理器，就类似于Redhat中的yum，它可以自动解决软件包中的依赖。  
 另外，Homebrew相较于OS X中其他的包管理器它有一个很好的特性，就是它尽可能的利用系统自带的各种库，这样就使得软件包的编译时间大为缩短，同时它也几乎不会造成冗余，软件包的管理也清晰灵活了许多。
+
 ## Homebrew 安装
+
 终端粘贴下面一条命令即可：
 `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
 ### Homebrew 隐藏命令
+
 #### 1.安装扩展
+
 由于 brew 和包含的包源都是通过 github 来管理，人为的维护管理，除了自己的源还允许别人的源添加进来。
 `$ brew tap <gihhub_user/repo>`
 这个命令并没有包含任何的帮助说明，其实它只接受上面的这个参数。
