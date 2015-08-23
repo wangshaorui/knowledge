@@ -24,6 +24,8 @@
 - 技术相关知识
     - HTTP 相关
         - [session和cookie简单认识](session-cookie-notes.md)
+    - 服务器相关
+        - [ubuntu-server 使用手记](server/server-tips.md)
     - PHP 相关
         - [Composer Tips](php/composer-tips.md)
     - Python

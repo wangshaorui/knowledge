@@ -4,6 +4,10 @@
 
 ---
 
+## Tips
+
+- Laravel 中 middleware 的执行顺序即在 Kernel.php 中的注册顺序。
+
 ## Laravel Eloquent
 Eloquent 是 Laravel 的 'ORM'，即 'Object Relational Mapping'，对象关系映射。ORM 的出现是为了帮我们把对数据库的操作变得更加地方便。
 ### Eloquent 基础使用要点
