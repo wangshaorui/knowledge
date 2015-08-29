@@ -43,31 +43,19 @@
   - 展示公司通讯录
   - 展示公司知识库、文档、相关资料
 
+### 开通在线协作系统
 
-### 开通 OA 系统
-
-#### 在线协作系统（Tower）
-
-当前公司使用 Tower (http://tower.im) 与 GitHub (http://github.com) 作为办公协作系统。
+当前公司使用 Tower (http://tower.im) 作为办公协作系统。
 
 领取到工作邮箱以后，会在 工作邮箱 中收到公司 Tower 内项目的邀请，接受邀请后即加入了在线 OA 系统。
 
 具体 Tower 的使用方法，请参考 Tower 的使用帮助（https://tower.im/help）。
 
-#### 在线文档、代码管理系统（GitHub）
+### 开通在线文档、代码管理系统
 
-使用工作邮箱注册 GitHub ，将用户名反馈给团队 GitHub 账号管理员，加入 GitHub 团队账号，需要在邮箱中进行加入确认。
+当前团队使用 GitHub (https://github.com/) 作为文档、代码管理系统
 
-### 开通版本管理系统
-
-当前团队使用 Bitbucket (https://bitbucket.org/) 与 GitHub(https://github.com/) 作为代码管理系统。
-
-领取到工作邮箱以后，会在 工作邮箱 中收到公司 Bitbucket 内来自 Glosure 账号的邀请，以及来自 GitHub 中 Datartisan 组织的邀请，接受邀请后即加入了在线版本管理系统。
-
-> - Glosure 是公司所用的 Bitbucket 团队账号名
-> - 在 GitHub 中公司直接作为 Datartisan 组织存在
-
-另外，加入 Bitbucket 后，需要在账号设置中的 User groups 栏目中，增加一个新的名为`admin`的组，设置此组有`admin`权限，将`Glosure`账号加入到这个组中，这样以便团队 Review 队员的本地代码库情况。
+领取到工作邮箱以后，使用工作邮箱注册 GitHub ，将用户名反馈给团队 GitHub 账号管理员，加入 GitHub 团队账号，需要在邮箱中进行加入确认。
 
 ### 工作导师（Mentor）
 
