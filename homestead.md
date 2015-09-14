@@ -30,19 +30,9 @@ Vagrant用于创建和部署虚拟化开发环境，就是可以通过Vagrant封
  2. 安装好了之后，增加Vagrant封装包，就是将`laravel/homestead`这个box安装进你的Vagrant安装程序中，在终端执行：  
  `vagrant box add laravel/homestead`  
 *程序有点大，可以将下载地址拷贝出来放到外面的下载工具进行下载，然后进入所下载目录，在上条命令后面添加box的名字即可安装。*  
- 3. 接着，通过homebrew安装PHP和Composer
- `brew tap homebrew/dupes`
- `brew tap homebrew/php`
- 上面两条命令是往homebrew里添加库，然后就可以安装了：
- `brew install php56`
- `brew install composer`
- 安装完Composer之后，可以通过Composer来安装Homestead CLI:
- `composer global require "laravel/homestead=~2.0"`
- 接着把homestead加入环境变量：
- `PATH=$PATH:~/.composer/vendor/bin` *这个只是临时生效的，要永久生效，还是要写入shell的profile中*
- 然后：
- `homestead init` *这里会成生Homestead.yaml 配置文件*
- `homestead edit` *进入配置环境*
+ 3. 拷贝Homestead仓库
+ `git clone https://github.com/laravel/homestead.git Homestead`
+ 然后进入目录Homestead，运行`bash init.sh`创建Homestead.yaml配置文件。
 ### Homestead.yaml 配置
 **Provider**，即设置成自己喜欢的virtualbox 或者 vmware_fusion
 **authorize**，和key是成对存在的，通过ssh授权的方式和你的homestead环境进行连接。
