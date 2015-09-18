@@ -9,6 +9,9 @@
 - 分析业务相关知识
     - [如何成为数据科学家](how-to-be-a-data-scientist.md)
 
+- 博客分享
+    - [推荐博客](blogs.md)
+
 - 开发相关知识
     - 代码管理
         - [git 基本使用](git-notes.md)
@@ -33,6 +36,7 @@
         - [虚拟环境 virtualenv](virtualenv-notes.md)
         - [Python ORM之Pony](pony-notes.md)
         - [Python 包路径的基础知识](php-standard-recommendation.md)
+        - [Python Json](python_json.md)
     - 数据库
         - [PostgreSQL 相关](database/postgres.md)
         - [MySQL 相关](database/mysql.md)
@@ -53,8 +57,12 @@
         - [laravel 相关资源](laravel/laravel-resources.md)
     - Celery相关
         - [Celery 基础教程](celery.md)
+        - [Celery Flower](celery_flower.md)
     - Elasticsearch相关
         - [Elasticsearch 基础教程](elasticsearch-install-notes.md)
         - [Elasticsearch-py 简单使用](elasticsearch-py-notes.md)
     - MathJax相关
         - [MathJax 安装和常用配置](mathjax-configuration-notes.md)
+
+    - Markdown
+        － [markdown简单实用](markdown.md)
