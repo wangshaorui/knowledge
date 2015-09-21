@@ -1,4 +1,4 @@
-＃ Homestead 学习笔记
+	＃ Homestead 学习笔记
 ----
 
 ##Homebrew
@@ -46,3 +46,47 @@ Vagrant用于创建和部署虚拟化开发环境，就是可以通过Vagrant封
 接下来，就可以运行了：
  `homestead up`
 
+
+ ### 以下是我在使用过程中遇到的问题的汇总 ###
+
+ 	#### Laravel代码发生项目库启动错误 ####
+	1. 使用国内数据源: composer config -g repositories.packagist composer http://packagist.phpcomposer.com
+	2. rm -Rf vendor/ (删除项目库)
+	3. php composer.phar update -vvv
+
+	#### Laravel debugger学习 ####
+	1. 安装
+		1. 在项目目录下执行: composer require barryvdh/laravel-debugbar
+		2. 到config/app.php文件中, providers配置下添加Barryvdh\Debugbar\ServiceProvider::class,
+			aliases配置下'Debugbar' => Barryvdh\Debugbar\Facade::class,
+		3. php artisan vendor:publish
+		4. 如有必要可进行缓存和配置缓存清除:
+			1. php artisan cache:clear 
+			2. php artisan config:clear
+	2. 使用：
+		1. 可以在View中或Controller写入调试代码，比如:
+		<?php Debugbar::info(‘Debug'); ?>
+		就可以在浏览器端看到调试条了。
+
+	#### 可以使用国内的pip源 ####
+	pip install --trusted-host pypi.mirrors.ustc.edu.cn -i http://pypi.mirrors.ustc.edu.cn/simple/ {包名}
+
+	#### 创建新的larvel项目 ####
+	1. 使用命令：laravel new project_name
+	2. 修改homestead的site map （在.homestead下的Homestead.yaml(cd ~/.homestead)）
+	3. 修改host里面的主机映射（在虚拟机/etc下的hosts）
+	4. 查看虚拟机下nginx下启动了哪些程序: cd /etc/nginx/sites-available/  ls
+
+
+	#### vagrant操作事项：####
+	1. 连接到vagrant： vagrant ssh
+	2. 查看状态： vagrant status
+	3. 创建项目时需要重启环境：vagrant provision
+
+
+	#### 数据库迁移 ####
+	php artisan migrate(在项目目录下)
+
+	#### Mac下启动redis ####
+	redis-server /usr/local/etc/redis.conf
+	_(homestead下默认有安装redis)_

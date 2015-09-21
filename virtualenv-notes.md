@@ -42,3 +42,5 @@ virtualenv支持--python选项，该选项可以直接指定虚拟环境运行�
 
 **或者**，也可以直接由`pyenv local`指定当前目录下的python版本。
 
+具体使用都可查看［Virtual Environments］(http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+
