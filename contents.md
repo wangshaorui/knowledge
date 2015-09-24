@@ -36,7 +36,7 @@
         - [虚拟环境 virtualenv](virtualenv-notes.md)
         - [Python ORM之Pony](pony-notes.md)
         - [Python 包路径的基础知识](php-standard-recommendation.md)
-        - [Python Json](python_json.md)
+        - [Python Json](python-json.md)
     - 数据库
         - [PostgreSQL 相关](database/postgres.md)
         - [MySQL 相关](database/mysql.md)
@@ -57,7 +57,7 @@
         - [laravel 相关资源](laravel/laravel-resources.md)
     - Celery相关
         - [Celery 基础教程](celery.md)
-        - [Celery Flower](celery_flower.md)
+        - [Celery Flower](celery-flower.md)
     - Elasticsearch相关
         - [Elasticsearch 基础教程](elasticsearch-install-notes.md)
         - [Elasticsearch-py 简单使用](elasticsearch-py-notes.md)
