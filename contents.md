@@ -1,4 +1,4 @@
-#### 目录 [编辑](/edit/master/contents.md)
+#### 目录 [编辑](https://github.com/Datartisan/knowledge/edit/master/contents.md)
 
 - [首页](readme.md)
 
