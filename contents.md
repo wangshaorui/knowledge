@@ -50,6 +50,8 @@
         - [爬虫qingclound服务器部署](estate-crawler-server-notes.md)
     - HTML+CSS+XPATH
         - [HTML+CSS+XPATH](html-css-xpath-notes.md)
+    - JavaScript
+        - [JavaScript 基础](javascript-notes.md)
     - Laravel框架
         - [laravel 基础](laravel/laravel-notes.md)
         - [laravel4\5 会话共享](laravel/lv4-lv5-session-share.md)
