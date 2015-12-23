@@ -35,7 +35,7 @@
         - [Python 多版本管理工具 pyenv](pyenv-notes.md)
         - [虚拟环境 virtualenv](virtualenv-notes.md)
         - [Python ORM之Pony](pony-notes.md)
-        - [Python 包路径的基础知识](php-standard-recommendation.md)
+        - [Python 包路径的基础知识](python-import-notes.md)
         - [Python Json](python_json.md)
     - 数据库
         - [PostgreSQL 相关](database/postgres.md)
