@@ -65,6 +65,5 @@
         - [Elasticsearch-py 简单使用](elasticsearch-py-notes.md)
     - MathJax相关
         - [MathJax 安装和常用配置](mathjax-configuration-notes.md)
-
     - Markdown
-        － [markdown简单实用](markdown.md)
+        - [markdown简单实用](markdown.md)
