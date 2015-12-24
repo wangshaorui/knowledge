@@ -53,6 +53,7 @@
     - JavaScript
         - [JavaScript 基础](javascript-notes.md)
     - Laravel框架
+        - [Laravel5.1 基础](laravel/laravel5.1-notes.md)
         - [Laravel 基础](laravel/laravel-notes.md)
         - [Laravel4\5 会话共享](laravel/lv4-lv5-session-share.md)
         - [Laravel4 自定义命令](laravel/laravel-command.md)
