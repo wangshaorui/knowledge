@@ -1,5 +1,4 @@
 # Laravel5.1 基础
-
 [官方文档](https://laravel.com/docs/5.1)
 
 ## Route
@@ -193,11 +192,13 @@ User::where(function($query) {
 
 #### Retrieving Only Soft Deleted Models
  
- ```
+ 
+```
  $flights = App\Flight::onlyTrashed()
                 ->where('airline_id', 1)
                 ->get();
- ```
+```
+ 
  
 ### Restoring Soft Deleted Models
 
@@ -281,7 +282,7 @@ DB::table('users')
 ### unions
  
  
- ```
+```
  $first = DB::table('users')
             ->whereNull('first_name');
 
@@ -289,7 +290,7 @@ $users = DB::table('users')
             ->whereNull('last_name')
             ->union($first) // or unionAll($first)
             ->get();
- ```
+```
  
 ### Where
 
@@ -568,7 +569,7 @@ return redirect('home/dashbord');
 #### 提交表单失败，带着提交信息返回
 
 ```
-return back->withInput();
+return back()->withInput();
 ```
 
 #### Redirecting To Named Routes 跳转到其他路由
@@ -706,7 +707,7 @@ $factory->define(App\Food::class, function (Faker\Generator $faker) {
 }
 ```
 
-### 再 DatabaseSeeder.php 中引用
+### 在 DatabaseSeeder.php 中引用
 
 ```
     public function run()
@@ -733,3 +734,7 @@ php artisan db:seed
 `php artisan migrate:refresh --seed`
 
 会回滚数据库并重新建表插入 `seed`
+
+
+
+
