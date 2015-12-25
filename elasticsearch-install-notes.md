@@ -28,7 +28,7 @@ JRE是Java Runtime Enviroment是指Java的运行环境，是面向Java程序的�
 
 将源添加入`/etc/apt/sources.list.d/elasticsearch-{branch}.list`(注意版本branch):
 
-    echo "deb http://packages.elastic.co/elasticsearch/1.6/debian stable main" | sudo tee -a /etc/apt/sources.list.d/elasticsearch-1.6.list
+    echo "deb http://packages.elastic.co/elasticsearch/2.x/debian stable main" | sudo tee -a /etc/apt/sources.list.d/elasticsearch-2.x.list
     
 执行apt-get update然后新添加的源就可以用了，接着进行安装：
 
