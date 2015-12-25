@@ -58,11 +58,7 @@
         - [Laravel4\5 会话共享](laravel/lv4-lv5-session-share.md)
         - [Laravel4 自定义命令](laravel/laravel-command.md)
         - [Laravel 相关资源](laravel/laravel-resources.md)
-        - [laravel 基础](laravel/laravel-notes.md)
-        - [laravel4\5 会话共享](laravel/lv4-lv5-session-share.md)
-        - [laravel4 自定义命令](laravel/laravel-command.md)
-        - [laravel 相关资源](laravel/laravel-resources.md)
-        - [laravel5 表单验证总结](laravel/laravel-form-validation.md)
+        - [Laravel5 表单验证总结](laravel/laravel-form-validation.md)
     - Celery相关
         - [Celery 基础教程](celery.md)
         - [Celery Flower](celery-flower.md)
